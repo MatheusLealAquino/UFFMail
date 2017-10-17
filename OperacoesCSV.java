@@ -11,7 +11,7 @@ public class OperacoesCSV {
 	
 	private String localArquivo = "..\\alunos.csv"; //Indica onde o arquivo vai estar
 	
-	public OperacoesCSV() { //Possibilidade de passar endereço pelo construtor
+	public OperacoesCSV() { //Possibilidade de passar localArquivo pelo construtor
 	}
 	
 	public ArrayList<Aluno> listaAlunos() throws IOException {
