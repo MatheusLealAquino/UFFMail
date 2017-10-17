@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class OperacoesCSV {
 	private ArrayList<Aluno> alunos = new ArrayList<Aluno>();
 	
-	private String localArquivo = "C:\\Users\\Matheus\\Desktop\\trabalhe-conosco\\datasets\\alunos.csv"; //Indica onde o arquivo vai estar
+	private String localArquivo = "..\\alunos.csv"; //Indica onde o arquivo vai estar
 	
 	public OperacoesCSV() { 
 	}
@@ -17,7 +17,7 @@ public class OperacoesCSV {
 	public ArrayList<Aluno> listaAlunos() throws IOException {
 		BufferedReader conteudoCSV = null;
 		String linha = ""; //Iniciando variavel que vai receber cada linha do arquivo CSV
-		String csvSeparador = ","; //Delimitador de separaÁ„o dos dados do arquivo
+		String csvSeparador = ","; //Delimitador de separa√ß√£o dos dados do arquivo
 		
 		try {
 			conteudoCSV = new BufferedReader(new FileReader(localArquivo));
@@ -39,7 +39,7 @@ public class OperacoesCSV {
 				alunos.add(aluno); //Adicionando o aluno no ArrayList de alunos
 			}
 		}catch(FileNotFoundException e){ 
-			System.out.println("Arquivo n„o encontrado: "+ e.getMessage());
+			System.out.println("Arquivo n√£o encontrado: "+ e.getMessage());
 		}finally {
 			if(conteudoCSV != null) {
 				try {
