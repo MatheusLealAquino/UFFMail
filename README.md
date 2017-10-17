@@ -35,3 +35,21 @@ Decisões durante a hora de programação:
     Criação da PrincipalMail como classe principal para a execução do sistema, chamando os 
     métodos das classes criadas para que o sistema de criação de email com o padrão da UFF
     funcione corretamente.
+    
+Exemplo
+
+    Digite sua matrícula:
+    105457
+
+    Laura, por favor escolha uma das opções abaixo para seu UFFMail
+    1 - lauraazevedo@id.uff.br
+    2 - lazevedo@id.uff.br
+    3 - laura_azevedo@id.uff.br
+    4 - lauracunha@id.uff.br
+    5 - lcunha@id.uff.br
+    6 - laura_cunha@id.uff.br
+
+    3
+
+    A criação de seu e-mail (laura_azevedo@id.uff.br) será feita nos próximos minutos.
+    Um SMS foi enviado para 99999-9971 com a sua senha de acesso.
